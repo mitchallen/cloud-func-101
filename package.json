@@ -1,0 +1,13 @@
+{
+  "name": "cloud-func-101",
+  "version": "1.0.0",
+  "description": "A Google Cloud Functions demo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gcloud functions deploy helloGET --runtime nodejs8 --trigger-http"
+  },
+  "keywords": [],
+  "author": "Mitch Allen",
+  "license": "MIT"
+}
