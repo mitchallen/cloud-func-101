@@ -116,6 +116,26 @@ https://REGION-PROJECT-ID.cloudfunctions.net/helloGET
 
 * * *
 
+## npm script
+
+An npm deployment script was added to `package.json`.
+
+```
+"scripts": {
+  "deploy": "gcloud functions deploy helloGET --runtime nodejs8 --trigger-http"
+},
+```
+
+Run it with the following command:
+
+```
+npm run deploy
+```
+
+You can edit it and add a `--region` flag, etc.
+
+* * *
+
 ## References
 
 * https://cloud.google.com/functions/docs/tutorials/

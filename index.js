@@ -13,7 +13,7 @@ exports.helloGET = (req, res) => {
     res.set('Access-Control-Max-Age', '3600');
     res.status(204).send('');  
   } else {
-    const helloJSON = { message: 'Hello World!'};
+    const helloJSON = { message: 'Hello World!' };
     res.json(helloJSON);
   }
 }
