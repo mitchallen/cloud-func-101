@@ -106,14 +106,6 @@ See also:
 
 The demo includes support for CORS.
 
-Try this `curl` command (substituting your function's URL):
-
-```
-curl -i -H "Accept: application/json" \
--H "Content-Type: application/json" \
-https://REGION-PROJECT-ID.cloudfunctions.net/helloGET
-```
-
 * * *
 
 ## npm script
