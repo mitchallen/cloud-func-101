@@ -88,20 +88,6 @@ httpsTrigger:
 
 * * *
 
-## CORS support
-
-The demo includes support for CORS.
-
-Try this `curl` command (substituting your function's URL):
-
-```
-curl -i -H "Accept: application/json" \
--H "Content-Type: application/json" \
-https://REGION-PROJECT-ID.cloudfunctions.net/helloGET
-```
-
-* * *
-
 ## Test the function
 
 At the command line, use `curl` (substitute the URL returned by the deployment method):
@@ -113,6 +99,20 @@ curl https://REGION-PROJECT-ID.cloudfunctions.net/helloGET
 See also:
 
 * https://cloud.google.com/sdk/gcloud/reference/functions/deploy
+
+* * *
+
+## CORS support
+
+The demo includes support for CORS.
+
+Try this `curl` command (substituting your function's URL):
+
+```
+curl -i -H "Accept: application/json" \
+-H "Content-Type: application/json" \
+https://REGION-PROJECT-ID.cloudfunctions.net/helloGET
+```
 
 * * *
 
